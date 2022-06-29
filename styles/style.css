@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #96c1f8;
+}
+
+header{
+    height: 100px;
+}
+
+section{
+    background-image:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: -20px;
+    
+}
+
+footer{
+    height: 250px;
+    background-color: #5ee1e6;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#bateau{
+    height: 200px;
+    position: absolute;
+    top: 610px;
+    left: 820px;
+    animation-duration: 8s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from{
+        margin-left: -50%;
+    }
+    to{
+        margin-left: 0%;
+    }
+    
+}
+
+#requin{
+    height: 230px;
+    position: absolute;
+    top: 630px;
+    cursor: grab;
+}
+
+section{
+    font-size: 100px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+section :nth-child(1){
+    background-color: #80CEE1;
+    height: 100px;
+    width: 100px;
+}
+section :nth-child(2){
+    background-color: #80CEE1;
+    height: 100px;
+    width: 100px;
+}
+section :nth-child(3){
+    background-color: grey; 
+    height: 100px;
+    width: 100px;
+}
+section :nth-child(4){
+    background-color: #80CEE1;
+    height: 100px;
+    width: 100px;
+}
+section :nth-child(5){
+    background-color: #80CEE1;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+section div:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    margin: 5px;
+}
+
+footer{
+    font-size: 18px;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS";
+}
+
